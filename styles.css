@@ -1,0 +1,86 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.fondo {
+  background-image: url("descarga\ \(1\).jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 0;
+}
+
+header, footer, section {
+  background-color: rgba(255, 255, 255, 0.85); /* fondo claro semi-transparente */
+  margin: 1rem auto;
+  padding: 1.5rem;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+header {
+  background-color: rgba(47, 79, 47, 0.9);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+section h2 {
+  color: #2e3d2f;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.imagenes img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.imagenes img:hover {
+  transform: scale(1.05);
+}
+
+button {
+  display: block;
+  margin: 1rem auto 0;
+  padding: 0.6rem 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgba(47, 79, 47, 0.9);
+}
